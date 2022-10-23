@@ -91,9 +91,9 @@ console.log(getInt(11))
 
 function setBg () {
     const img = new Image();
-    img.src = `/bg${randomNumber}.jpg`;
+    img.src = `https://raw.githubusercontent.com/MiniSava/KiderOneJavaScript/main/bg${randomNumber}.jpg`;
     img.onload = () => {
-      document.body.style.backgroundImage = `url(https://minisava.github.io/KiderOneJavaScript/${img.src})`
+      document.body.style.backgroundImage = `url(${img.src})`
     }
 }
 
