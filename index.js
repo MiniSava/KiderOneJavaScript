@@ -93,7 +93,7 @@ function setBg () {
     const img = new Image();
     img.src = `/bg${randomNumber}.jpg`;
     img.onload = () => {
-      document.body.style.backgroundImage = `url(${img.src})`
+      document.body.style.backgroundImage = `url(https://minisava.github.io/KiderOneJavaScript/${img.src})`
     }
 }
 
